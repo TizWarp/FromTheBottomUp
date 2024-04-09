@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ftbu:research_table"
+    },
+    "facing=south": {
+      "model": "ftbu:research_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ftbu:research_table",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "ftbu:research_table",
+      "y": 90
+    }
+  }
+}

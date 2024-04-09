@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "ftbu:parchment_research"
+    },
+    "title": "Science!",
+    "description": "Successfully research something"
+  },
+  "parent": "ftbu:research/root",
+  "criteria": {
+    "ftgu": {
+      "trigger": "ftbu:technology_researched"
+    }
+  }
+}

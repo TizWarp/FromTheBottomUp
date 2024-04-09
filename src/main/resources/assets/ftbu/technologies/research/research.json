@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ftbu:parchment_idea"
+    },
+    "title": {
+      "translate": "technology.research.name"
+    },
+    "description": {
+      "translate": "technology.research.desc"
+    },
+    "background": "ftbu:textures/gui/advancements/backgrounds/parchment.png",
+    "x": 0,
+    "y": 0
+  },
+  "start": true,
+  "parent": "ftbu:survival/survival",
+  "unlock": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "paper"
+    },
+    "ftbu:parchment_empty",
+    "ftbu:idea_table",
+    "ftbu:research_table",
+    "ftbu:research_book",
+    "ftbu:magnifying_glass"
+  ]
+}

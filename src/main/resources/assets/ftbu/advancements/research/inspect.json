@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "ftbu:magnifying_glass"
+    },
+    "title": "Sherlock Holmes",
+    "description": "Find hidden meaning in a block"
+  },
+  "parent": "ftbu:research/research",
+  "criteria": {
+    "ftgu": {
+      "trigger": "ftbu:block_inspected"
+    }
+  }
+}
