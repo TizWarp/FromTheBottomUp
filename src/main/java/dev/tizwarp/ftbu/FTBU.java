@@ -101,10 +101,13 @@ public class FTBU {
 		registerItem(Content.i_researchBook, Content.n_researchBook);
 		registerItem(Content.i_magnifyingGlass, Content.n_magnifyingGlass);
 
-		CriteriaTriggers.register(Content.c_technologyUnlocked);
-		CriteriaTriggers.register(Content.c_technologyResearched);
-		CriteriaTriggers.register(Content.c_itemLocked);
-		CriteriaTriggers.register(Content.c_inspect);
+
+		//Advancements disabled for first aid compat
+
+		//CriteriaTriggers.register(Content.c_technologyUnlocked);
+		//CriteriaTriggers.register(Content.c_technologyResearched);
+		//CriteriaTriggers.register(Content.c_itemLocked);
+		//CriteriaTriggers.register(Content.c_inspect);
 
 		StackUtils.INSTANCE.registerItemPredicate(new ResourceLocation(MODID, "fluid"), (ItemPredicate.Factory) new ItemFluid.Factory());
 		StackUtils.INSTANCE.registerItemPredicate(new ResourceLocation(MODID, "enchantment"),
